@@ -12,7 +12,7 @@ keywords = ["rust", "library", "llm"]
 categories = ["development-tools", "llm"] 
 
 [lib]
-name = "llm-temp-scale"
+name = "llm_temp_scale"
 path = "src/lib.rs"
 
 [dependencies]
