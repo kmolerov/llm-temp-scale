@@ -1,0 +1,19 @@
+[package]
+name = "llm-temp-scale"
+version = "0.1.0"
+edition = "2024"
+
+authors = ["Kalin Molerov <k.molerov@gmail.com>"]
+description = "`llm-temp-scale` is a multiplatform library for normalizing and converting a base, normalized temperature value into provider-specific temperature values for large language models (LLMs)."
+license = "MIT"
+repository = "https://github.com/kmolerov/llm-temp-scale"
+readme = "README.md"
+keywords = ["rust", "library", "llm"]
+categories = ["development-tools", "llm"] 
+
+[lib]
+name = "llm-temp-scale"
+path = "src/lib.rs"
+
+[dependencies]
+log = "0.4"
